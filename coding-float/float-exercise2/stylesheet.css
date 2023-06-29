@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+    background-color: #0f0e17;
+    color: white;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    width: 80%;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 1rem;
+}
+
+.debug .col{
+    height: 200px;
+    background-color: red;
+}
+
+img{
+    max-width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    color: deeppink ;
+    margin: 2rem 0;
+}
+
+h3{
+    color: orange;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    color: deeppink ;
+    margin-top: 2rem;
+}

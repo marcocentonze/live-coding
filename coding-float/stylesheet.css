@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+body{
+    background-color: black;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.section_left img{
+width: 200px;
+float:left;
+margin-right: 1rem;
+}
+.section_right img{
+    width: 200px;
+    float: right;
+    margin-left: 1rem;
+}
+h2,p{
+    margin-bottom: 1rem;
+}
